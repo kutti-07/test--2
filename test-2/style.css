@@ -1,0 +1,33 @@
+body {
+    transition: background-color 0.5s; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    gap: 20px;
+}
+#id-color button{
+    width: 100px;
+    height: 50px;
+}
+.box-1{
+    margin-top: 100px;
+}
+.box-2{
+    margin-top: 100px;
+}
+.block {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    display: block;
+}
+.hidden {
+    display: none;
+}
+
+#counter {
+    font-size: 48px;
+    font-family: Arial, sans-serif;
+}
